@@ -1,1 +1,3 @@
-# chefbook-frontend
+# ChefBook Frontend
+
+ChefBook stub homepage & privacy policy (for now)

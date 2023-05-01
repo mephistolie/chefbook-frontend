@@ -1,0 +1,22 @@
+.header {
+    height: 64px;
+
+    background: var(--background-primary-color);
+    border-bottom: 1px solid var(--background-secondary-color);
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.tab {
+    font-weight: 400;
+    font-size: 16px;
+    transition: color 300ms
+}
+
+.tab:hover {
+    color: var(--foreground-secondary-color);
+}

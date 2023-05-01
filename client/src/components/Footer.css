@@ -1,0 +1,9 @@
+.footer {
+    height: 64px;
+
+    color: var(--foreground-secondary-color);
+    font-size: 16px;
+
+    background: var(--background-primary-color);
+    border-top: 1px solid var(--background-secondary-color);
+}
