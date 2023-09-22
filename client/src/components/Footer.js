@@ -8,7 +8,6 @@ const Footer = () => {
             <Container style={{height: "100%"}}>
                 <Row className="justify-content-between align-items-center" style={{height: "100%"}}>
                     <Col md={4} className="foreground-secondary-color">© Mikhail Levin, 2023</Col>
-                    <Col md={4} className="text-end foreground-secondary-color">Made with love for T. I. ♥️</Col>
                 </Row>
             </Container>
         </Col>
