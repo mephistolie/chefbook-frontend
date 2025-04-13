@@ -1,7 +1,8 @@
 import Home from "./pages/Home";
-import {EULA_ROUTE, HOME_ROUTE, PRIVACY_ROUTE} from "./utils/consts";
+import {EULA_ROUTE, HOME_ROUTE, PRIVACY_ROUTE, PROFILE_DELETION} from "./utils/consts";
 import EULA from "./pages/EULA";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ProfileDeletion from "./pages/ProfileDeletion";
 
 export const routes = [
     {
@@ -15,5 +16,9 @@ export const routes = [
     {
         path: PRIVACY_ROUTE,
         Component: PrivacyPolicy
+    },
+    {
+        path: PROFILE_DELETION,
+        Component: ProfileDeletion
     }
 ]
